@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zine Library</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #6200ea;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 1em;
+        }
+
+        .zine {
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 1em;
+            padding: 1em;
+            text-align: center;
+            width: 300px;
+        }
+
+        .zine img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        .zine h2 {
+            font-size: 1.5em;
+            margin: 0.5em 0;
+        }
+
+        .zine a {
+            display: inline-block;
+            margin-top: 1em;
+            padding: 0.5em 1em;
+            background-color: #6200ea;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .zine a:hover {
+            background-color: #3700b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #6200ea;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zine Library</h1>
+        <p>Discover, Download, and Print Amazing Zines</p>
+    </header>
+
+    <main>
+        <div class="zine">
+            <img src="zine1-thumbnail.jpg" alt="Zine 1 Cover">
+            <h2>Title of Zine 1</h2>
+            <p>A short description of Zine 1. Explore this unique creation.</p>
+            <a href="zine1.pdf" download>Download Zine</a>
+        </div>
+
+        <div class="zine">
+            <img src="zine2-thumbnail.jpg" alt="Zine 2 Cover">
+            <h2>Title of Zine 2</h2>
+            <p>A short description of Zine 2. Discover new perspectives.</p>
+            <a href="zine2.pdf" download>Download Zine</a>
+        </div>
+
+        <div class="zine">
+            <img src="zine3-thumbnail.jpg" alt="Zine 3 Cover">
+            <h2>Title of Zine 3</h2>
+            <p>A short description of Zine 3. Dive into this artistic journey.</p>
+            <a href="zine3.pdf" download>Download Zine</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Zine Library. All rights reserved.</p>
+    </footer>
+</body>
+</html>
